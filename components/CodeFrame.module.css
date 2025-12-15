@@ -1,0 +1,62 @@
+.codeFrame {
+  background: rgba(7, 16, 34, 0.9);
+  border: 1px solid rgba(102, 153, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(4, 8, 26, 0.45);
+  overflow: hidden;
+  backdrop-filter: blur(16px);
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background: linear-gradient(135deg, rgba(34, 62, 120, 0.6), rgba(12, 22, 49, 0.6));
+  border-bottom: 1px solid rgba(97, 140, 255, 0.2);
+}
+
+.bar span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.bar span:nth-child(1) {
+  background: rgba(255, 95, 86, 0.9);
+}
+
+.bar span:nth-child(2) {
+  background: rgba(255, 189, 46, 0.9);
+}
+
+.bar span:nth-child(3) {
+  background: rgba(39, 201, 63, 0.85);
+}
+
+.bar p {
+  margin: 0;
+  margin-left: auto;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(210, 220, 255, 0.7);
+}
+
+.pre {
+  margin: 0;
+  padding: 20px 24px;
+  font-size: 13px;
+  line-height: 1.6;
+  background: rgba(5, 12, 28, 0.6);
+  color: rgba(224, 236, 255, 0.86);
+  font-family: "JetBrains Mono", "Fira Code", "SFMono-Regular", Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  overflow-x: auto;
+  position: relative;
+}
+
+.pre code {
+  white-space: pre;
+}
